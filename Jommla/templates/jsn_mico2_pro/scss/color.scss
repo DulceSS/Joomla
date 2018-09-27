@@ -1,0 +1,54 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+
+  /* ==================== Background ==================== */
+  a {
+    color: $main-color;
+    &:hover {
+      color: darken($main-color, 10%);
+    }
+  }
+  .breadcrumb li a:hover {
+    color: $main-color;
+  }
+  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: $main-color;
+    border-color: $main-color;
+  }
+  #mijoshop .product-thumb:hover,
+  #menu_item_menu.sunfw-menu .sunfw-tpl-menu > li.dropdown-submenu .dropdown-menu li a {
+    border-color: $main-color;
+  }
+  .navbar-default .navbar-nav > li > a:hover, 
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > .active > a, 
+  .navbar-default .navbar-nav > .active > a:hover, 
+  .navbar-default .navbar-nav > .active > a:focus {
+    background-color: $main-color;
+    color: #fff;
+  }
+  #kunena .navbar ul.nav li.active a, #kunena .navbar ul.nav li a:hover,
+  div.sunfw-menu .sunfw-tpl-menu >li:hover >a, .progress-bar,
+  .sunfw-pos-left .module-style.lightbox-1, .sunfw-pos-innerleft .module-style.lightbox-1, 
+  .sunfw-pos-innerright .module-style.lightbox-1, .sunfw-pos-right .module-style.lightbox-1,
+  .demo-frontpage .grid-layout .grid-col .jsn-template-featured .link-button:hover,
+  ul.sunfw-tpl-menu > li ul, ul.social li a:hover, ul.top-menu li a:hover,
+  .module-style .module-title {
+    background-color: $main-color;
+  }
+  div.sunfw-menu .sunfw-tpl-menu > li.dropdown-submenu .dropdown-menu li a,
+  div.sunfw-menu .sunfw-tpl-menu > li.megamenu .sunfw-megamenu-sub-menu ul.nav li a {
+    border-top-color: rgba(255, 255, 255, .3);
+    border-bottom-color: darken($main-color, 8%);
+  }
+
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){    
+  .bg_sub_color_default {
+    background-color: $sub-color;
+  }
+}

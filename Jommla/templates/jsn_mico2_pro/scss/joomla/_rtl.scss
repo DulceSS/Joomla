@@ -1,0 +1,42 @@
+.sunfw-direction-rtl {
+	.btn-toolbar .btn, .btn-toolbar .btn-group, .btn-toolbar .input-group {
+		float: right;
+	}
+	ul.social,
+	ul.top-menu {
+		float: left;
+	}
+	div.itemRatingBlock span,
+	div.catItemRatingBlock span, .itemRatingForm,
+	.demo-frontpage .grid-layout .grid-col {
+		float: right;
+	}
+	.demo-frontpage .grid-layout .grid-col:last-child {
+		border-right: 1px solid #ddd;
+		border-left: 0;
+	}
+	.k2Avatar img {
+		float: right;
+		margin-right: 0;
+	    margin-left: 5px;
+	}
+	div.itemIsFeatured:before, div.catItemIsFeatured:before, div.userItemIsFeatured:before {
+		right: auto;
+		left: 10px;
+	}
+	.box-title .fa {
+	  margin-left: 10px;
+	  margin-right: 0;
+	}
+
+}
+
+
+@media (max-width: 767px) {
+	.sunfw-direction-rtl ul.top-menu {
+	    float: none;
+	}
+	.sunfw-direction-rtl .breadcrumb > li + li:before {
+		padding: 0 2px 0 0;
+	}
+}

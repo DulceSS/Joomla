@@ -1,0 +1,35 @@
+/*---------------------------------------------------------------
+
+# Author - olwebdesign http://www.olwebdesign.com
+# Copyright (C) 2008 - 2018 olwebdesign.com. All Rights Reserved.
+# Websites: http://www.olwebdesign.com
+-----------------------------------------------------------------*/
+
+.mx-header {
+  top: -40px;
+  -webkit-transition: top 0.8s;
+  -moz-transition: top 0.8s;
+  -o-transition: top 0.8s;
+  transition: top 0.8s;
+  background-color: #fff;
+}
+
+#mx-header.menu-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 7000;
+  width: 100%;
+  left: 0;
+  padding: 0px;
+}
+
+.mx-header {
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  	box-shadow:0 0 3px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.4);
+}
+

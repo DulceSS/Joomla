@@ -1,0 +1,33 @@
+{
+  "developer": [
+    {
+      "id": "mico2",
+      "name": "JSN Mico 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_mico_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_mico_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_mico_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "mico2",
+      "name": "JSN Mico 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_mico_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_mico_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_mico_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "mico2",
+      "name": "JSN Mico 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_mico_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_mico_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_mico_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+
